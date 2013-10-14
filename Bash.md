@@ -13,3 +13,17 @@
 cd dom
 
 touch wazne-sprawy
+
+3\. Wejdź do katalogu wazne-sprawy i utwórz tam pusty plik rachunki.txt.
+
+'''sh
+
+temp/dom/wazne-sprawy$ touch rachunki.txt
+
+4\. Będąc w katalogu wazne-sprawy skopiuj plik rachunki.txt do katalogu zrealizowane.
+
+'''sh
+
+cp ./rachunki.txt ~/temp/praca/zlecenia/zrealizowane
+
+5\. Przejdź do katalogu zrealizowane i zmień nazwę pliku rachunki.txt na wykonano.txt.
