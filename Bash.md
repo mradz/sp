@@ -11,4 +11,5 @@
 '''sh
 
 cd dom
+
 touch wazne-sprawy
