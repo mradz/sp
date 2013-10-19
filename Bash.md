@@ -27,3 +27,8 @@ temp/dom/wazne-sprawy$ touch rachunki.txt
 cp ./rachunki.txt ~/temp/praca/zlecenia/zrealizowane
 
 5\. Przejdź do katalogu zrealizowane i zmień nazwę pliku rachunki.txt na wykonano.txt.
+
+'''sh
+cd ../../
+cd praca/zlecenia/zrealizowane
+mv rachunki.txt wykonano.txt
