@@ -102,6 +102,17 @@ ni po wt śr cz pi so   ni po wt śr cz pi so
 
 
 
+'''sh
+
+cal 10 2009
+
+cal -3 10 2009
+
+cal -3 11 2009
+
+
+
+
 
 
 
