@@ -39,6 +39,15 @@ mv rachunki.txt wykonano.txt
 '''sh
 
 cat > wykonano.txt
+
 1234567890
 
 split -b5 wykonano.txt
+
+7\. Będąc w katalogu logo skopiuj powyżej otrzymane 3 pliki do katalogu dokumenty.
+
+'''sh
+
+
+
+
