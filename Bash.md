@@ -31,7 +31,9 @@ cp ./rachunki.txt ~/temp/praca/zlecenia/zrealizowane
 '''sh
 
 cd ../../
+
 cd praca/zlecenia/zrealizowane
+
 mv rachunki.txt wykonano.txt
 
 6\. Utwórz plik wykonano.txt wielkości 11 bajtów, następnie podziel go pliki wielkości 5 bajtów. W ten sposób otrzymasz 3 pliki. (split)
@@ -57,6 +59,18 @@ cp ~temp/praca/zlecenia/zrealizowane/{xaa,xab,xac} ~/temp/praca/dokumenty/
 8\. Będąc w katalogu dokumenty połącz skopiowane 3 pliki w plik odtworzono.txt, tak aby otrzymać plik o zawartości identycznej z wykonano.txt. Następnie plik odtworzono.txt skopiuj do katalogu wazne-sprawy.
 
 '''sh
+
+cd ../../
+
+cat xaa xab xac > odtworzono.txt
+
+cp odtworzono.txt ~/temp/dom/waznesprawy/
+
+9\.Będąc w katalogu wazne-sprawy sprawdź, czy są jakieś różnice w zawartości plików wykonano.txt i odtworzono.txt.
+
+'''sh
+
+
 
 
 
