@@ -48,6 +48,19 @@ split -b5 wykonano.txt
 
 '''sh
 
+cd ../../..
+
+cd nauka/logo
+
+cp ~temp/praca/zlecenia/zrealizowane/{xaa,xab,xac} ~/temp/praca/dokumenty/
+
+8\. Będąc w katalogu dokumenty połącz skopiowane 3 pliki w plik odtworzono.txt, tak aby otrzymać plik o zawartości identycznej z wykonano.txt. Następnie plik odtworzono.txt skopiuj do katalogu wazne-sprawy.
+
+'''sh
+
+
+
+
 
 
 
