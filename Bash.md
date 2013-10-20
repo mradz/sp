@@ -120,4 +120,22 @@ cal -3 11 2009
 
 
 
+11\. Jaki był dzień tygodnia 25 maja 1975 r. (cal i date)
+
+'''sh
+
+date -d 1975/5/25
+
+
+
+
+
+
+
+
+
+
+
+
+
 
