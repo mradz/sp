@@ -88,6 +88,8 @@ cp odtworzono.txt ~/temp/dom/waznesprawy/
 
 diff odtworzono.txt ~/temp/praca/zlecenia/zrealizowane/wykonano.txt
 
+```
+
 10\. Wyświetl kalendarz na październik 2009 r. (cal)
 
 Wyświetl kalendarz na wrzesień, październik i listopad 2009 r. z miesiącami obok siebie (cal):
