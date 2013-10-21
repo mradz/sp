@@ -5,6 +5,8 @@
 ```sh
 
  mkdir -p dom nauka/{c,logo,pascal} praca/{dokumenty,zlecenia/{niezrealizowane,zrealizowane}}
+ 
+ ```
 
 2\. Przejdź do katalogu dom i utwórz katalog wazne-sprawy.
 
