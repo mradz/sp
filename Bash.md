@@ -180,9 +180,13 @@ grep main program.c
 
 ```sh
 
+chmod u=rw,g=r,o-rwx program.c
 
+```
 
+5/. Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
 
+```sh
 
 
 
