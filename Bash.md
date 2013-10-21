@@ -166,7 +166,7 @@ head -2 program.c
 
 tail -4 program.c
 
-'''
+```
 
 3\. W pliku program.c znajdź wszystkie wiersze z wystąpieniem słowa „main”. (grep)
 
