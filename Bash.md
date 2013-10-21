@@ -2,7 +2,7 @@
 
 1\. Używając linii poleceń stwórz strukturę katalogów:
 
-'''sh
+```sh
 
  mkdir -p dom nauka/{c,logo,pascal} praca/{dokumenty,zlecenia/{niezrealizowane,zrealizowane}}
 
