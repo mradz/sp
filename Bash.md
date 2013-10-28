@@ -224,7 +224,31 @@ rm temp.tar
 mv temp/praca/wazne-sprawy/ temp/dom/
 
 ```
+ 10\. Wyświetlenie linijek 3 i 4
+ 
+ ```sh 
+ 
+ head -n4 program.c | tail -n2
+ 
+ 
+ ```
+ 
+ 11\. Wyświetlanie linijek 5,6,7 (licząc od dołu)
+ 
+ ```sh
+ 
+ tail -n 6 program.c | head -n 2
+ 
+ 
+```
 
+12\. Poprzednie innym sposobem
+
+```sh
+
+tac program.c | head -n 7 | tail -n 3 | tac
+
+```
 
 
 
