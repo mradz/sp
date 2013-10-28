@@ -184,7 +184,7 @@ chmod u=rw,g=r,o-rwx program.c
 
 ```
 
-5/. Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
+5\. Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
 
 ```sh
 
@@ -193,14 +193,14 @@ mv dom/waznesprawy praca
 
 ```
 
-6/. Zarchiwizuj cały katalog temp. (zip i tar)
+6\. Zarchiwizuj cały katalog temp. (zip i tar)
 
 ```sh
 
 tar -cf temp.tar temp
 
 ```
-7/. Usuń katalog temp.
+7\. Usuń katalog temp.
 
 ```sh
 
@@ -208,7 +208,7 @@ rm -r temp
 
 ```
 
-8/. Odtwórz z archiwum katalog temp. (unzip i tar)
+8\. Odtwórz z archiwum katalog temp. (unzip i tar)
 
 ```sh
 
@@ -216,7 +216,7 @@ tar -xf temp.tar
 
 ```
 
-9/. Posprzątaj na swoim koncie.
+9\. Posprzątaj na swoim koncie.
 
 ```sh
 
