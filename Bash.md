@@ -249,7 +249,29 @@ mv temp/praca/wazne-sprawy/ temp/dom/
 tac program.c | head -n 7 | tail -n 3 | tac
 
 ```
+13\. Wyswietlanie bez slowa main
 
+```sh 
+
+grep -v program.c
+
+```
+
+14\. Wyswietlanie całych słow
+
+```sh
+
+grep -w main program.c
+
+```
+
+15\.  Wyświetlanie słów kończących sie main
+
+```sh
+
+grep 'main\b' program.c
+
+```
 
 
 
