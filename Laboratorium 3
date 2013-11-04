@@ -29,9 +29,7 @@ head -qn 5 *
 4\. Wyświetl linie o numerach 3, 4 i 5 z pliku /etc/passwd
 
 ```sh
-
 head -n 5 /etc/passwd | tail -n 3
-
 ```
 
 5\. Wyświetl linie o numerach 7, 6 i 5 od końca pliku /etc/passwd
