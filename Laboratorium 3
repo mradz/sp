@@ -62,7 +62,7 @@ cat plik.txt | tr " " "\n"
 
 ```sh
 
-find /etc -type f 2>&1 | wc -l
+ls -a /etc | wc -l
 
 ```
 
