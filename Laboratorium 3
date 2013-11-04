@@ -1,7 +1,7 @@
 ###Laboratorium 3###
 
 
-1\. Wyświetl plik /etc/passwd z podziałem na strony przyjmując, że strona na 5 linii tekstu. (raczej more niż less)
+1\. Wyświetl plik */etc/passwd* z podziałem na strony przyjmując, że strona na 5 linii tekstu. (raczej more niż less)
 
 ```sh
 
@@ -26,13 +26,13 @@ w taki sposób, aby nie były wyświetlane ich nazwy.
 head -qn 5 *
 
 ```
-4\. Wyświetl linie o numerach 3, 4 i 5 z pliku /etc/passwd
+4\. Wyświetl linie o numerach 3, 4 i 5 z pliku */etc/passwd*
 
 ```sh
 head -n 5 /etc/passwd | tail -n 3
 ```
 
-5\. Wyświetl linie o numerach 7, 6 i 5 od końca pliku /etc/passwd
+5\. Wyświetl linie o numerach 7, 6 i 5 od końca pliku */etc/passwd*
 
 ```sh
 
@@ -40,7 +40,7 @@ tail -n 7 /etc/passwd | head -n 3
 
 ```
 
-6\. Wyświetl zawartość pliku /etc/passwd w jednej linii
+6\. Wyświetl zawartość pliku */etc/passwd* w jednej linii
 
 ```sh
 
@@ -56,7 +56,7 @@ cat plik.txt | tr " " "\n"
 
 ```
 
-8\. Zlicz wszystkie pliki znajdujące się w katalogu /etc i jego podkatalogach
+8\. Zlicz wszystkie pliki znajdujące się w katalogu */etc* i jego podkatalogach
 
 ```sh
 
@@ -64,7 +64,7 @@ ls -a /etc | wc -l
 
 ```
 
-9\. Napisać polecenie zliczające ilość znaków z pierwszych trzech linii pliku /etc/passwd
+9\. Napisać polecenie zliczające ilość znaków z pierwszych trzech linii pliku */etc/passwd*
 
 ```sh
 
