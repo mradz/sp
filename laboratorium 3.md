@@ -50,6 +50,8 @@ tail -n 7 /etc/passwd | head -n 3
 
 cat /etc/passwd | tr -d "\n"
 
+cat /etc/passwd | tr "\n" " "
+
 ```
 
 7\. Za pomocą filtru tr wykonaj modyfikację pliku plik.txt, polegającą na umieszczeniu każdego słowa w osobnej linii
@@ -65,6 +67,9 @@ cat plik.txt | tr " " "\n"
 ```sh
 
 ls -a /etc | wc -l
+
+ls -R -a -C | wc -w
+
 
 ```
 
