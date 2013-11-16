@@ -12,7 +12,8 @@ ls | tr 'a-z' 'A-Z'
 
 ```sh
 
-ls -lk
+ ls -l | tr -s " " | cut -f 1,5,9 -d " " |tr " " "\t"
+
 
 ```
 
