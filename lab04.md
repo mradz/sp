@@ -29,7 +29,7 @@ ls -S
 
 ```sh
 
-sort -t : -n -k3 -r /etc/passwd
+sort -n -k 3 -t : /etc/passwd | less
 
 ```
 
@@ -38,7 +38,7 @@ do najmniejszego, a następnie UID
 
 ```sh 
 
-sort -t : -k4 -r /etc/passwd | sort -t : -k3 
+sort -n -k 3 -t : /etc/passwd | sort -ns -k 4 -t : | more
 
 ```
 
@@ -49,5 +49,13 @@ sort -t : -k4 -r /etc/passwd | sort -t : -k3
 
 find $HOME -not -type d| wc -l
 
+
+```
+
+7\. Sporządź statystykę praw dostępu (dla każdego z praw dostępu podaj ile razy zostało ono przydzielone).
+
+```sh
+
+ls -l | cut -f 1 -d " " | sort | uniq -c
 
 ```
