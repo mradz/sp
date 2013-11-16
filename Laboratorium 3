@@ -1,7 +1,7 @@
 ###Laboratorium 3
 
 
-1\. Wyświetl plik */etc/passwd* z podziałem na strony przyjmując, że strona na 5 linii tekstu. (raczej more niż less)
+1\. Wyświetl plik */etc/passwd* z podziałem na strony przyjmując, że strona na 5 linii tekstu. (raczej more niż less`
 
 ```sh
 
@@ -31,6 +31,7 @@ head -qn 5 *
 4\. Wyświetl linie o numerach 3, 4 i 5 z pliku */etc/passwd*
 
 ```sh
+
 head -n 5 /etc/passwd | tail -n 3
 
 ```
