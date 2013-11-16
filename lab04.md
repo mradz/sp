@@ -42,3 +42,11 @@ sort -t : -k4 -r /etc/passwd | sort -t : -k3
 ```
 
 
+6\. Podaj liczbę plików każdego użytkownika.
+
+```sh
+
+find $HOME -not -type d| wc -l
+
+
+```
