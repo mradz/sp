@@ -5,7 +5,7 @@ wszystkie pliki, które zostały zmodyfikowane w ciągu ostatnich dziesięciu dn
 
 ```sh
 
-find ~/ -mtime -10 -maxdepth 1
+find ~/ maxdepth 1 -type f -mtime -10 2> /dev/null
 
 ```
 
