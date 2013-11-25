@@ -29,7 +29,7 @@ find ~/ -type f -atime +20
 
 ```
 
-find /etc \( -type d -and ! -empty -or -type f \) -and -name a* 2> /dev/null
+find /etc \( -type d -and ! -empty \) -or -name "a*"
 
 ```
 
