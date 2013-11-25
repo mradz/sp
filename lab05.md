@@ -45,6 +45,6 @@ rm x??
 
 ```sh
 
-mkdir `date +%Y-%m-%d`
+mkdir $(date +%Y-%m-%d)
 
 ```
