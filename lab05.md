@@ -21,7 +21,7 @@ find / -name *conf* -type f 2> /dev/null
 
 ```sh
 
-find ~/ -type f -atime -20
+find ~/ -type f -atime +20
 
 ```
 
