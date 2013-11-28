@@ -15,7 +15,7 @@ grep . {1, } plik.txt
 
 grep ^[0-9] pl*
 
-```sh
+```
 
 3\. Znajdź pliki, zawierające wiersz w którym na 9 pozycji występuje litera r.
 
