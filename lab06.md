@@ -5,7 +5,7 @@
 
 ```sh
 
-grep -n . plik.txt
+grep  . plik.txt
 
 ```
 
